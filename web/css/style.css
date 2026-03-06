@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+}
+
+header {
+    background-color: hsl;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 50px;
+}
+
+header h1 {
+    margin: 5;
+    font-size: 25px;
+}
+
+#cabecalhounico {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+}
+
+#pesquisar {
+   margin-left: 25px;
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none; /* Remove aquela borda azul feia ao clicar */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: graytext; /* Muda a borda para a cor do seu header */
+}
+
+button {
+    padding: 10px;
+    background-color: graytext;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #555; /* Um tom um pouco mais escuro */
+}
