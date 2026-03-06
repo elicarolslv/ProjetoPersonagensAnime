@@ -1,0 +1,10 @@
+# Pastas do NetBeans
+/build/
+/nbproject/private/
+/dist/
+/nbbuild/
+/nbdist/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
