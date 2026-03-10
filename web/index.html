@@ -1,32 +1,38 @@
-
+<!DOCTYPE html>
 <html>
     <head>
         <title>Personagens Anime</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-   
-        <header><h1>Personagens Favs da Eli</h1></header>
+
+        <header>
+            <h1>Personagens Favs da Eli</h1>
+        </header>
         
-        <div id="cabecalhounico" >Pesquise os personagens ou anime:</div>
-       
+        <div id="cabecalhounico">
+            Pesquise os personagens ou anime:
+        </div>
         
         <div id="pesquisar">
-        <form action="PesquisaController" method="GET">
-            
-            <label for="anime">Anime:</label>
-            <input type="text" id="anime" name="anime">
+            <form action="PesquisaController" method="POST">
+                
+                <label for="anime">Anime:</label>
+                <input type="text" id="anime" name="anime" required>
 
-            <label for="personagem">Personagem:</label>
-            <input type="text" id="personagem" name="personagem">
+                <label for="personagem">Personagem:</label>
+                <input type="text" id="personagem" name="nome" required>
 
+                <label for="foto_url">URL da Foto:</label>
+                <input type="text" id="foto_url" name="foto_url" required>
 
-            <button type="submit">Pesquisar</button>
-        </form>
+                <button type="submit">Pesquisar e Gravar</button>
+            </form>
         </div>
+        
+        <div id="resultado-pesquisa"></div>
         
     </body>
 </html>

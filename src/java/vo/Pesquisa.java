@@ -1,13 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package vo;
 
-/**
- *
- * @author Elisandra
- */
 public class Pesquisa {
     
+     private String nome;
+     private String anime;
+     private String fotoUrl; // Novo atributo para a imagem
+     
+     public String getNome(){
+         return nome;
+     }
+     
+     public String getAnime(){
+         return anime;
+     }
+
+     // Getter para a foto
+     public String getFotoUrl(){
+         return fotoUrl;
+     }
+     
+     public void setNome(String nome) {
+         this.nome = nome;
+     }
+     
+     public void setAnime(String anime){
+         this.anime = anime;
+     }
+     
+     // Setter para a foto
+     public void setFotoUrl(String fotoUrl){
+         this.fotoUrl = fotoUrl;
+     }
 }
