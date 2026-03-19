@@ -17,18 +17,15 @@
         </div>
         
         <div id="pesquisar">
-            <form action="PesquisaController" method="POST">
+            <form action="PesquisaController" method="GET">
                 
                 <label for="anime">Anime:</label>
-                <input type="text" id="anime" name="anime" required>
+                <input type="text" id="anime" name="anime">
 
                 <label for="personagem">Personagem:</label>
-                <input type="text" id="personagem" name="nome" required>
+                <input type="text" id="personagem" name="nome">
 
-                <label for="foto_url">URL da Foto:</label>
-                <input type="text" id="foto_url" name="foto_url" required>
-
-                <button type="submit">Pesquisar e Gravar</button>
+                <button type="submit">Pesquisar</button>
             </form>
         </div>
         

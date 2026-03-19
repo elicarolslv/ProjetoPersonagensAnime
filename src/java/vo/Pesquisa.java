@@ -15,9 +15,7 @@ public class Pesquisa {
      }
 
      // Getter para a foto
-     public String getFotoUrl(){
-         return fotoUrl;
-     }
+
      
      public void setNome(String nome) {
          this.nome = nome;
@@ -27,8 +25,5 @@ public class Pesquisa {
          this.anime = anime;
      }
      
-     // Setter para a foto
-     public void setFotoUrl(String fotoUrl){
-         this.fotoUrl = fotoUrl;
-     }
+   
 }
